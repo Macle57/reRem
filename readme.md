@@ -14,5 +14,6 @@ poetry --vesion
 now initialize the project with 
 
 ```bash
-poetry init
+poetry install
+poetry run python main.py
 ```
