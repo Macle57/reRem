@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reoccuringrems"
+version = "0.1.0"
+description = "discord reminders bot"
+authors = ["Macle57 <adityagoel2462@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+discord = "^2.3.2"
+python-dotenv = "^1.0.1"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
